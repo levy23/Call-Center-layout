@@ -1,0 +1,14 @@
+.container {
+  background-color: aqua;
+  width: 10px;
+  height: 100px; }
+
+.row {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black; }
+
+p {
+  color: aquamarine; }
+
+/*# sourceMappingURL=style.css.map */
