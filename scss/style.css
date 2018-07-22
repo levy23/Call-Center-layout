@@ -138,14 +138,30 @@ html {
   height: 600px; }
 
 .content-pp {
+  position: absolute;
   display: flex;
-  justify-content: flex-start;
-  padding: 10px; }
+  text-align: center;
+  padding-left: 150px;
+  padding-top: 80px;
+  height: 600px; }
 
 .o2 {
-  border: 1px solid black;
+  box-shadow: 0 0 0.8em #776;
   padding: 30px;
   width: 100px;
   height: 60px; }
+
+.o2:hover {
+  border: 2px solid #8490ff;
+  padding: 28px; }
+
+.content-pp a {
+  margin: 20px; }
+
+.content-pp2 {
+  position: relative;
+  padding-right: 250px;
+  padding-bottom: 1px;
+  width: 300px; }
 
 /*# sourceMappingURL=style.css.map */
