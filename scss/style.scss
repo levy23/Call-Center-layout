@@ -8,9 +8,16 @@ html{
 }
 
 .header-nav{
-
+  position: fixed;
   display: flex;
   justify-content: center;
+  z-index: 997;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 8px 0;
+  background: #fff;
+  box-shadow: -21.213px 21.213px 30px 0px rgba(158,158,158,0.3)
 }
 
 .main-header{
@@ -167,40 +174,33 @@ html{
 
 /*content*/
 
-.content{
-  height: 600px;
-
-}
-
-.content-pp{
-  position: absolute;
+.content {
+  padding: 50px;
   display: flex;
-  text-align: center;
-  padding-left: 150px;
-  padding-top: 80px;
-
-  height: 600px;
+  justify-content: center;
 }
 
-.o2{
-  box-shadow: 0 0 0.8em #776;
+.content-2{
+  width: 500px;
   padding: 30px;
-  width: 100px;
-  height: 60px;
 }
 
-.o2:hover{
+.content-1{
+  margin: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.co2{
+  padding: 25px;
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  box-shadow: 5px 5px 5px 5px rgba(158,158,158,0.3);
+}
+
+.co2:hover{
   border: 2px solid #8490ff;
-  padding: 28px;
+  margin: 8px;
 }
 
-.content-pp a{
-  margin: 20px;
-}
-
-.content-pp2{
-  position: relative;
-  padding-right: 250px;
-  padding-bottom: 1px;
-  width: 300px;
-}
