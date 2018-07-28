@@ -167,4 +167,45 @@ html {
   border: 2px solid #8490ff;
   margin: 8px; }
 
+.content-info {
+  display: flex;
+  justify-content: center; }
+
+.content-info h2 {
+  background: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700; }
+
+.content-text {
+  padding: 30px; }
+
+/*service*/
+.serviceback {
+  background-image: url("/img/hd/service-bg.jpg");
+  background-size: initial;
+  background-position: center;
+  height: 750px; }
+
+.service {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
+  text-align: center;
+  height: 750px; }
+
+.service h3 {
+  padding: 20px;
+  font-size: 40px;
+  color: white; }
+
+.service p {
+  color: white; }
+
+.service-content {
+  display: flex; }
+
+.service-content h2 {
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */
