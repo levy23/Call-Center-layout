@@ -233,25 +233,58 @@ html{
 .service{
   background-color: rgba(0,0,0,0.7);
   opacity: 0.9;
-  text-align: center;
   height: 750px;
 }
+
 
 .service h3{
   padding: 20px;
   font-size: 40px;
   color: white;
+  text-align: center;
 }
 
-.service p{
+.title-p{
   color: white;
+  text-align: center;
 }
 
 .service-content{
   display: flex;
+  justify-content: center;
 }
 
 .service-content h2{
   color: white;
+}
+
+.service-content p{
+  color: white;
+}
+
+.service-text{
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.service-text h2{
+  text-transform: none;
+  text-decoration: none;
+}
+
+.service1{
+  display: flex;
+}
+
+.service-text:hover{
+  background: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+  box-shadow: -10px 10px 10px 0px rgba(158,158,158,0.3);
+  transition: 0.5s all;
+}
+
+a{
+  text-transform: none;
+  text-decoration: none;
 }
 
