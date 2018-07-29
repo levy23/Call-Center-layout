@@ -288,3 +288,50 @@ a{
   text-decoration: none;
 }
 
+/*support*/
+
+.support{
+  height: 700px;
+}
+
+
+/*sponsor*/
+
+.sponsor{
+  padding: 50px;
+  text-align: center;
+  height: 150px;
+  background-color: #f9f9ff;
+}
+
+.sponsor img{
+  -webkit-filter: grayscale(90%);
+  -moz-filter: grayscale(90%);
+  -o-filter: grayscale(90%);
+  -ms-filter: grayscale(90%);
+  filter: grayscale(90%);
+}
+
+.sponsor img:hover{
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+/*contact*/
+
+.contact{
+  text-align: center;
+}
+
+.contact-form{
+  display: flex;
+  justify-content: center;
+}
+
+.contact h3{
+  font-size: 40px;
+}
+
